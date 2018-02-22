@@ -17,7 +17,7 @@ called `RollAndSumDice`, that will produce textual output that rolls dice and
 performs simple mathematical operations on their output. Please see  the
 laboratory assignment sheet for more details. As verified by
 [Checkstyle](https://github.com/checkstyle/checkstyle), the source code for the
-`MadLibs.java` file must adhere to all of the requirements in the [Google Java
+`RollAndSumDice.java` file must adhere to all of the requirements in the [Google Java
 Style Guide](https://google.github.io/styleguide/javaguide.html).
 
 The source code in the `RollAndSumDice.java` file must also pass additional
