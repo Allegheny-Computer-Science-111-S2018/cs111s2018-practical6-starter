@@ -147,27 +147,27 @@ if [ "$CHECK" = true ]; then
   # ADD ADDITIONAL CALLS TO BOTH gatorgrader.py and determine_exit_code HERE
   # --> GatorGrader CHECK: the correct number of comments in the Java code
   python3 gatorgrader/gatorgrader.py --nowelcome --directories src/main/java/practicalsix/ \
-                                     --checkfiles RollAndSumDice.java --singlecomments 7 --multicomments 2 --language Java
+                                     --checkfiles RollDice.java --singlecomments 7 --multicomments 2 --language Java
   determine_exit_code $?
   # --> GatorGrader CHECK: the "int" fragment exists in the code at least two times
   python3 gatorgrader/gatorgrader.py --nowelcome --directories src/main/java/practicalsix \
-                                     --checkfiles RollAndSumDice.java --fragments "int" --fragmentcounts 2
+                                     --checkfiles RollDice.java --fragments "int" --fragmentcounts 2
   determine_exit_code $?
   # --> GatorGrader CHECK: the "Math.pow" fragment exists in the code at least once
   python3 gatorgrader/gatorgrader.py --nowelcome --directories src/main/java/practicalsix \
-                                     --checkfiles RollAndSumDice.java --fragments "Math.pow" --fragmentcounts 1
+                                     --checkfiles RollDice.java --fragments "Math.pow" --fragmentcounts 1
   determine_exit_code $?
   # --> GatorGrader CHECK: the "Math.max" fragment exists in the code at least once
   python3 gatorgrader/gatorgrader.py --nowelcome --directories src/main/java/practicalsix \
-                                     --checkfiles RollAndSumDice.java --fragments "Math.max" --fragmentcounts 1
+                                     --checkfiles RollDice.java --fragments "Math.max" --fragmentcounts 1
   determine_exit_code $?
   # --> GatorGrader CHECK: the "Math.min" fragment exists in the code at least once
   python3 gatorgrader/gatorgrader.py --nowelcome --directories src/main/java/practicalsix \
-                                     --checkfiles RollAndSumDice.java --fragments "Math.min" --fragmentcounts 1
+                                     --checkfiles RollDice.java --fragments "Math.min" --fragmentcounts 1
   determine_exit_code $?
   # --> GatorGrader CHECK: the "println(" fragment exists in the code at least six times
   python3 gatorgrader/gatorgrader.py --nowelcome --directories src/main/java/practicalsix \
-                                     --checkfiles RollAndSumDice.java --fragments "println(" --fragmentcounts 6
+                                     --checkfiles RollDice.java --fragments "println(" --fragmentcounts 6
   determine_exit_code $?
   echo ""
   printf "%s\n" "${blu}... Finished checking with GatorGrader${end}"

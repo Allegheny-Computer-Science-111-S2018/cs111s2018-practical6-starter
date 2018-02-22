@@ -1,7 +1,7 @@
 package practicalsix;
 
 
-public class RollAndSumDice {
+public class RollDice {
 
   private static final int MAX = 6;
 

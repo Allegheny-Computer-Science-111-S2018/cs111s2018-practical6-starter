@@ -13,19 +13,19 @@ the commit logs.
 ## Introduction
 
 This assignment requires a programmer to implement and test a Java program,
-called `RollAndSumDice`, that will produce textual output that rolls dice and
+called `RollDice`, that will produce textual output that rolls dice and
 performs simple mathematical operations on their output. Please see  the
 laboratory assignment sheet for more details. As verified by
 [Checkstyle](https://github.com/checkstyle/checkstyle), the source code for the
-`RollAndSumDice.java` file must adhere to all of the requirements in the [Google Java
+`RollDice.java` file must adhere to all of the requirements in the [Google Java
 Style Guide](https://google.github.io/styleguide/javaguide.html).
 
-The source code in the `RollAndSumDice.java` file must also pass additional
+The source code in the `RollDice.java` file must also pass additional
 tests set by the [GatorGrader tool](https://github.com/gkapfham/gatorgrader).
 Specifically, GatorGrader will check the following characteristics of your
 implementation:
 
-* The `RollAndSumDice` program must:
+* The `RollDice` program must:
   * Contain at least seven single-line comments and two multi-line comments
   * Declare and use at least two variables of type `int`
   * Use appropriate methods of the `Math` class to perform mathematical operations
