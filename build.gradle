@@ -22,14 +22,14 @@ jar {
   manifest {
     attributes(
         'Class-Path': configurations.compile.collect { it.getName() }.join(' '),
-        'Main-Class': 'practicalsix.RollAndSumDice'
+        'Main-Class': 'practicalsix.RollDice'
         )
   }
 }
 
 // give the name of the application to run with "gradle run" command
 apply plugin: 'application'
-mainClassName = 'practicalsix.RollAndSumDice'
+mainClassName = 'practicalsix.RollDice'
 
 // perform checkstyle checking with the "gradle check" command
 apply plugin: 'checkstyle'
